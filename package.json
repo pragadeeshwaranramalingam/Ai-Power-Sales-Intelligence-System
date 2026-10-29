@@ -1,0 +1,28 @@
+{
+  "name": "ai-power-sales-intelligence-system",
+  "version": "2.0.0",
+  "description": "AI Power Sales Intelligence System v2.0 - Full-stack MERN enterprise sales analytics and lead intelligence platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "node -e \"console.log('Use npm run server and npm run client in separate terminals, or use start:all')\"",
+    "start:server": "cd server && npm run dev",
+    "start:client": "cd client && npm run dev",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm test",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "sales-intelligence",
+    "ai-lead-scoring",
+    "crm",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
